@@ -28,7 +28,7 @@ function handleSuccess(stream) {
 }
 
 function handleError(error) {
-  const errorMessage = 'navigator.MediaDevices.getUserMedia error: ' + error.message + ' ' + error.name;
+  const errorMessage = 'navigator.MediaDevices.getUserMedia error: ' + error.message + ' ' + error.name + 'Checking the DELIA-49663 issue.';
   document.getElementById('errorMsg').innerText = errorMessage;
   console.log(errorMessage);
 }
