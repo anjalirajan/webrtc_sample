@@ -83,6 +83,7 @@ function gotStream(stream) {
 }
 
 function start() {
+  console.log('Helloooooo welcome TEL!');
   if (window.stream) {
     window.stream.getTracks().forEach(track => {
       track.stop();
