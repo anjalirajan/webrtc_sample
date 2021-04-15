@@ -84,12 +84,13 @@ function gotStream(stream) {
 
 function start() {
   console.error('Helloooooo welcome TEL!!!!!!!!!!!!!!!!!!!!!!!!!!');
-  alert('Testing the navigator.MediaDevices.getUserMedia');
+  
+  /*alert('Testing the navigator.MediaDevices.getUserMedia');
   if (window.stream) {
     window.stream.getTracks().forEach(track => {
       track.stop();
     });
-  }
+  } */
   const constraints = {
     audio: true,
     video: true
