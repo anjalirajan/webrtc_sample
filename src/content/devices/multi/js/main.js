@@ -83,7 +83,7 @@ function gotStream(stream) {
 }
 
 function start() {
-  console.log('Helloooooo welcome TEL!');
+  console.log('Helloooooo welcome TEL!!!!!!!!!!!!!!!!!!!!!!!!!!');
   alert('Testing the navigator.MediaDevices.getUserMedia');
   if (window.stream) {
     window.stream.getTracks().forEach(track => {
