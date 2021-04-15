@@ -83,7 +83,7 @@ function gotStream(stream) {
 }
 
 function start() {
-  console.log('Helloooooo welcome TEL!!!!!!!!!!!!!!!!!!!!!!!!!!');
+  console.error('Helloooooo welcome TEL!!!!!!!!!!!!!!!!!!!!!!!!!!');
   alert('Testing the navigator.MediaDevices.getUserMedia');
   if (window.stream) {
     window.stream.getTracks().forEach(track => {
@@ -100,7 +100,7 @@ function start() {
 start();
 
 function handleError(error) {
-  console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
+  console.error('******TEL: navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
   alert('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
 }
 
